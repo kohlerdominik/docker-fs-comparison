@@ -1,1 +1,7 @@
+version: '3'
 
+services:
+  server:
+    image: nginxdemos/hello
+    ports:
+      - "8099:80"
